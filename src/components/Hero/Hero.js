@@ -15,6 +15,7 @@ const Hero = (props) => (
       <SectionText>
         Tribe Developers provide App/Website Development Services for Businesses.
       </SectionText>
+      <Button onClick={() => window.location = '/' }>Contact us</Button>
     </LeftSection>
   </Section>
 );
